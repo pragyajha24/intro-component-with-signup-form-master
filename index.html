@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1 class="card__heading">Learn to code by watching others</h1>
+        <p class="card__desc">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="card__form">
+        <button class="card__btn">
+          <span>Try it free 7 days </span> then $20/mo. thereafter
+        </button>
+        <form class="form__signup">
+          <div class="input__box">
+            <input
+              type="text"
+              name="First Name"
+              placeholder="First Name"
+              id="first-name"
+              required
+            />
+            <span class="error__message" id="error-first-name"></span>
+          </div>
+
+          <div class="input__box">
+            <input
+              type="text"
+              name="Last Time"
+              placeholder="Last Name"
+              id="last-name"
+              required
+            />
+            <span class="error__message" id="error-last-name"></span>
+          </div>
+          <div class="input__box">
+            <input
+              type="email"
+              name="Email "
+              placeholder="Email Address"
+              id="email"
+              required
+            />
+            <span class="error__message" id="error-email"></span>
+          </div>
+          <div class="input__box">
+            <input
+              type="password"
+              name="Password"
+              placeholder="Password"
+              id="password"
+              min-length="5"
+              required
+            />
+            <span class="error__message" id="error-password"></span>
+          </div>
+
+          <button type="submit" id="form__btn">Claim your free trial</button>
+          <p class="form__footer">
+            By clicking the button, you are agreeing to our<span>
+              Terms and Services
+            </span>
+          </p>
+        </form>
+      </div>
+   
+
+    <!-- <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/pragyajha24">Pragya Jha</a>.
+      </p>
+    </footer> -->
+
+  </div>
+  </body>
+</html>
