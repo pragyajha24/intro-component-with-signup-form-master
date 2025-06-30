@@ -44,7 +44,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/pragyajha24/intro-component-with-signup-form-master/tree/main)
 - Live Site URL: [Add live site URL here](https://pragyajha24.github.io/intro-component-with-signup-form-master/)
 
 ## My process
